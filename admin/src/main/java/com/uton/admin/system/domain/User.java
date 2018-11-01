@@ -302,4 +302,8 @@ public class User implements Serializable {
 				", roleName='" + roleName + '\'' +
 				'}';
 	}
+
+	public Long getAuthCacheKey() {
+		return userId;
+	}
 }
